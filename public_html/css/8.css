@@ -1,0 +1,64 @@
+.affix {
+      top: 0;
+      right: 0;
+      left: auto;
+      width: 100%;
+      opacity: 0.95;
+      -webkit-transition: all .5s ease-in-out;
+      transition: all .5s ease-in-out;
+  }
+  .affix-top {
+      position: static;
+      top: -35px;
+  }
+  .affix + .container-fluid {
+      padding-top: 70px;
+  }
+  .container-fluid{
+  	height: 150px;
+  	background-color:#333333;
+  }
+  .badge-notify{
+  	background:red;
+  	position:relative;
+  	top:-10px;
+  }
+
+.dropdown-menu p{
+    width: 250px;
+    color: black;
+    padding: 5px 16px;
+    text-decoration: none;
+    display: block;
+
+}
+  .dropdown-menu :hover{
+      background-color : #d1d1e0;
+      color: black;
+      text-decoration: none;
+      outline:none;
+}
+  .nav{
+	font-size:16px;
+      background-color: #33334d;
+      box-shadow: 0px 2px 5px rgb(0, 0, 0);
+}
+
+  .nav li a{
+      color: white;
+  }
+.nav li a:visited,.nav li a:hover,.nav li  a:active,.nav li a:focus , table tr:visited,
+table tr:hover,.pull-right .dropdown:active{
+    cursor: pointer;
+    background-color: #14141f;
+    color: white;
+    border-radius: 0px;
+    text-decoration: none;
+    outline:none;
+}
+
+#content{
+    background-color: #d1d1e0;
+    min-height: 600px;
+    height: auto;
+}

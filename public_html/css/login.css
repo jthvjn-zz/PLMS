@@ -1,0 +1,154 @@
+body {
+    background-image: url("../img/WDF_747792.png");
+    background-repeat: no-repeat;
+    background-size: 100% 720px;
+}
+
+.container{
+    margin-top:50px ;
+    max-width: 1170px;
+    border:none ;
+    padding: 0;
+    background-color: rgba(0,0,0,0.4);
+}
+
+#header{
+    text-align: center;
+    color: rgba(255,255,255,0.9);
+    padding-bottom: 6px;
+    border-bottom: solid rgba(255,255,255,0.5) 5px;
+    letter-spacing: 1px;
+    word-spacing: 2px;
+    text-shadow: 0.5px .5px 0px grey;
+
+}
+
+.box #register{
+    float: left;
+    width: 585px;
+    padding-top: 5px;
+    padding-left: 200px;
+    border-right:solid rgba(255,255,255,0.5) 5px;
+
+}
+
+.box #login{
+    float: right;
+    width: 585px;
+    padding-top: 5px;
+    padding-left: 190px;
+
+
+
+}
+
+.header{
+    font-size: large;
+    color: black;
+
+}
+
+input[type=text], input[type=password]{
+    width: 250px;
+    padding: 6px 10px;
+}
+
+ input[type=text]:focus,input[type=password]:focus{
+    background-color:rgb(255, 236, 179);
+    outline: none;
+    border: none;
+    }
+
+#option {
+    margin: 15px 25px;
+
+}
+
+#msg{
+    font-size: 15px;
+    padding:2px;
+    color: white;
+}
+#passcode{
+
+    padding-top: 5px;
+}
+
+span{
+    font-size: 18px;
+    padding: 5px 4px;
+    color: rgba(0, 0, 0,0.8) ;
+}
+a:link {
+    font-size: 15px;
+    color: white;
+}
+
+a:visited {
+    color: white;
+}
+
+
+
+#reg-btn{
+    float:right;
+}
+
+
+#credentials{
+    padding-top: 12px;
+    padding-bottom: 2px;
+    padding: 12px 0px;
+
+}
+
+input[type=submit]:hover{
+    box-shadow: 0 16px 16px 0 rgba(0,0,0,.8), 0 17px 40px 0 rgba(0,0,0,.8);
+}
+
+#login input[type=submit]{
+    background-color: #e7e7e7;
+    border: none;
+    color: black;
+    padding: 8px 20px;
+    margin-top: 2px;
+    margin-left: 158px;
+    margin-bottom: 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 18px;
+    transition: all 0.5s;
+    cursor: pointer;}
+
+
+
+
+#register input[type=submit]{
+    background-color: #e7e7e7;
+    border: none;
+    color: black;
+    padding: 8px 20px;
+    margin-top: 10px;
+    margin-right: 137px;
+    margin-bottom: 80px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 18px;
+    transition: all 0.5s;
+    cursor: pointer;
+}
+
+
+
+#adminlgn input[type=submit]{
+    box-shadow: none;
+
+}
+
+
+
+
+
+

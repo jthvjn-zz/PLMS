@@ -1,0 +1,42 @@
+#content section #c1{
+    height: auto;
+    padding-top: 50px;
+}
+#info1, #info2{
+    margin-top: 20px;
+    padding:5px 0px;
+    border-bottom: 2px double rgb(51, 51, 77);
+    color: #33334d;
+    font-size: 20px;
+}
+
+#info2{
+    margin-top: 5px;
+}
+
+#content section #c1 {
+    padding-top: 8px;
+}
+
+#content section #c1 .table tr th{
+    background-color: #33334d;
+    color: white;
+}
+
+#content section #c1 .table{
+    background-color: white;
+}
+#content section #c1 .table-hover tr.wrong{
+    color: rgb(255, 51, 51);
+    font-weight: bold;
+    font-size: medium;
+
+}
+
+
+#content section #c1 .table-hover tr.accepted{
+    color:  #00cc44;
+    font-weight: bold;
+    font-size: medium;
+
+}

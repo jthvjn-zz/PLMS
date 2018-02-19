@@ -1,0 +1,56 @@
+.affix {
+      top: 0;
+      right: 0;
+      left: auto;
+      width: 100%;
+      opacity: 0.95;
+      -webkit-transition: all .5s ease-in-out;
+      transition: all .5s ease-in-out;
+  }
+  .affix-top {
+      position: static;
+      top: -35px;
+  }
+  .affix + .container-fluid {
+      padding-top: 70px;
+  }
+.container-fluid{
+	height: 150px;
+	background-color:#333333;
+}
+.badge-notify{
+	background: red;
+	position:relative;
+	top: -10px;
+}
+.nav{
+	font-size:16px;
+}
+.dropdown-menu :hover{
+	color:#E7E7E7;
+	background:#3C3C3C;
+	font-size:18px;
+}
+.container{
+	padding-top:10px;
+	font-size: 18px;
+}
+.btn{
+	font-size:18px;
+}
+
+h2{
+	color: #00CC44;
+}
+.form-control{
+	margin-bottom:20px;
+}
+#editor {
+    /** Setting height is also important, otherwise editor wont showup**/
+    height: 500px;
+    padding-top: 100px;
+    position: relative;
+    z-index: -0;
+
+
+}

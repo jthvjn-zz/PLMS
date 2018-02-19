@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>solutionview</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/23.css" />
+</head>
+<body>
+  <div class="container-fluid">
+  	<h2><strong>LAB NAME</strong></h2>
+  </div>
+  <ul class="nav nav-tabs navbar-inverse" data-spy="affix" data-offset-top="197">
+    <li><a href="#">Overview</a></li>
+    <li><a href="#">Submission_Q</a></li>
+    <li><a href="#">Problem_set</a></li>
+    <li class="pull-right"><a href="#"><span class=" glyphicon glyphicon-user"></span> Log out</a></li>
+    <li class="pull-right dropdown"><a class="dropdown" data-toggle="dropdown" href="#"><span class="glyphicon glyphicon-bell"></span> Notifications<span class="badge badge-notify"> 2</span></a>
+    	<ul class="dropdown-menu">
+    		<li><a href="#">notification 1</a></li>
+    	 	<li><a href="#">notification 2</a></li>
+    	 	<li><a href="#">view all</a></li>
+    	</ul>
+    </li>
+  </ul>
+  <div class="container">
+  	<h3>Program_id/Program_name</h3>
+  	<hr/>
+  	<h3>Program_solution</h3>
+  	<hr/>
+  	<div class="col-lg-6" id="editor1">code goes here</div>
+    <!--editor 1 here-->
+    <div class="col-lg-6" id="editor2">code goes here</div>
+    <!--editor 2 here-->
+  	<textarea class="form-control" id="remarks" rows="3" placeholder="remarks"></textarea>
+  	<button class="btn btn-md btn-success pull-right">Accept</button>
+  	<button class="btn btn-md btn-danger pull-right">Reject</button>
+  </div>
+  <!--script----------------------------------------------------------------------------->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+  <script src="src-noconflict/ace.js" type="text/javascript" charset="utf-8"></script>
+    <script>
+        var editor = ace.edit("editor1");
+        editor.setTheme("ace/theme/monokai");
+        editor.getSession().setMode("ace/mode/c_cpp");
+        document.getElementById('editor').style.fontSize='18px';
+        editor.setOption("showPrintMargin", false);
+    </script>
+    <script src="src-noconflict/ace.js" type="text/javascript" charset="utf-8"></script>
+    <script>
+        var editor = ace.edit("editor2");
+        editor.setTheme("ace/theme/monokai");
+        editor.getSession().setMode("ace/mode/c_cpp");
+        document.getElementById('editor').style.fontSize='18px';
+        editor.setOption("showPrintMargin", false);
+    </script>
+  <!--script------------------------------------------------------------------------------>
+</body>
+</html>

@@ -1,0 +1,95 @@
+#content{
+    width:auto;
+    height: auto;
+    margin: 0px;
+}
+
+#content .container{
+    width: 100%;
+    float: left;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+ #content .table{
+    background-color: white;
+    margin-top: 1px;
+    float: left;
+    width: 1000px;
+
+
+
+}
+ div#msgs{
+     position: static;
+     right: 15px;
+ }
+
+#content .container div#msgs .table, .table-hover{
+    float: right;
+    max-width:300px;
+    word-wrap: normal;
+    border: thin  #33334d;
+
+}
+#content #msgs .table{
+    background-color: white;
+    margin-top: 1px;
+    float: left;
+    width: 1000px;
+
+}
+.table-hover tr td a:visited,.table-hover tr td a:hover,.table-hover tr td a:active{
+    background-color: white;
+    outline: none;
+    text-decoration: none;
+
+}
+
+.table-hover tr:hover{
+    background-color: #9494b8;
+}
+
+
+#content .table-hover tr.not_tried,
+#content .table-hover tr.not_tried td>a:visited,
+#content .table-hover tr.not_tried td>a:hover
+#content .table-hover tr.not_tried td>a:active
+{
+    color: #14141f;
+    font-weight: bold;
+    font-size: medium;
+
+}
+
+#content .table-hover tr.accepted,
+#content .table-hover tr.accepted td>a:visited,
+#content .table-hover tr.accepted td>a:hover
+#content .table-hover tr.accepted td>a:active
+{
+    color:  #00cc44;
+    font-weight: bold;
+    font-size: medium;
+}
+
+#content .table-hover tr.wrong,
+#content .table-hover tr.wrong td>a:visited,
+#content .table-hover tr.wrong td>a:hover
+#content .table-hover tr.wrong td>a:active
+{
+    color: rgb(255, 51, 51);
+    font-weight: bold;
+    font-size: medium;
+}
+
+#content .table tr th{
+    background-color: #33334d;
+    color: white;
+
+}
+
+#content hr {
+    border: 0;
+    height: 1.30px;
+    background: #33334d;
+    background-image: linear-gradient(to right, #33334d, #ccc);
+}

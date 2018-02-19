@@ -1,0 +1,48 @@
+
+#editor {
+    /** Setting height is also important, otherwise editor wont showup**/
+    height: 400px;
+    padding-top: 10px;
+    width: auto;
+    z-index: 0;
+}
+ #algo,#pgm{
+     width: 49%;
+     min-height: 400px;
+     height:auto;
+     background-color: white;
+     border-right: solid rgb(32, 32, 96) 1px;
+     border-bottom: solid rgb(32, 32, 96) 1px;
+     margin: 15px auto;
+     padding: 15px;
+     border-radius: 10px;
+     z-index: -0
+ }
+
+#pgm{
+    float: right;
+    min-height: 500px;
+}
+#algo{
+    float: left;
+    margin-top: 58px;
+}
+#editor-pgm {
+    /** Setting height is also important, otherwise editor wont showup**/
+    height: 450px;
+    padding-top: 10px;
+    width: auto;
+    padding-bottom: 0px;
+    z-index: 0;
+    clear: both;
+}
+#lang-sel{
+  float: right;
+  padding-top: 10px;
+}
+
+ul.dropdown-menu li{
+  padding:2px;
+  margin: auto;
+
+}
